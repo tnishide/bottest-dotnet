@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateWebBrowserControl", "UpdateWebBrowserControl\UpdateWebBrowserControl.csproj", "{D64284B0-242E-4A22-AFE6-DF34884749E5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot_GazeTest", "Bot_GazeTest\Bot_GazeTest.csproj", "{25D8DED5-6EBA-4F14-8553-D09232EC1F22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_WebChat", "WPF_WebChat\WPF_WebChat.csproj", "{2150D179-76C8-4314-B8C0-E9CC18CA6F06}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D64284B0-242E-4A22-AFE6-DF34884749E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D64284B0-242E-4A22-AFE6-DF34884749E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D64284B0-242E-4A22-AFE6-DF34884749E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D64284B0-242E-4A22-AFE6-DF34884749E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{25D8DED5-6EBA-4F14-8553-D09232EC1F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{25D8DED5-6EBA-4F14-8553-D09232EC1F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25D8DED5-6EBA-4F14-8553-D09232EC1F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
