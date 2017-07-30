@@ -27,7 +27,8 @@ namespace WPF_WebChat
 
             InitializeComponent();
 
-            wbWebChat.Navigate(new Uri(@"file:///C:/researchS/15MicrosoftBotFramework/BotFramework-WebChat/samples/fullwindow/index.html?domain=http://localhost:3000/directline&webSocket=false&pi=100"));
+            wbWebChat.Navigate(new Uri(@"file:///C:/researchS/15MicrosoftBotFramework/BotFramework-WebChat/samples/fullwindow/index.html?domain=http://localhost:3000/directline&webSocket=false&username=WPF-User"));
+            // レスポンスを早くするには index.html で pollingInterval をpiで指定できるようにしたうえで，Navigate内で &pi=100 を追加する
 
         }
 
