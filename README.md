@@ -1,5 +1,8 @@
 # bottest-dotnet
 
+## デバッグ用ツール
+- https://www.telerik.com/download/fiddler が通信の流れを見れて超便利!
+
 ## Bot_GazeTest
 C#の Bot で Event が扱えることを確認できます．
 - https://github.com/hkawash/bottest-dotnet/tree/master/Bot_GazeTest のBotと
@@ -31,10 +34,12 @@ WebChat の backchannel サンプル (Node.js) を C# .NET にしたもので，
     - オリジナルを使う場合は pi を指定できません
 
 ## WPF_WebChat
-WPF のアプリケーションに WebChat を表示します．
-1. WebBrowser コントロールを配置して，その中で WebChat を開いています．
-    - MainWindow.xaml.cs の中で，WebChat のサンプルのあるパスを指定してください．
-1. デフォルトのWebBrowserコントロールはなんと IE7 を呼んでいるので，PCに入っている新しいIEに置き換えています．
-    - 具体的には，Appのコンストラクタとデストラクタでレジストリの登録と削除をしています．
-1. WebChat側 (DirectLineJS) は ajax を使っていますが，IE11 のキャッシュが影響して Bot 側の出力が描画されません（調査中）
+WPF のアプリケーションに WebChat を表示します．（WebBrowser コントロールで WebChat を開いています．）
+1. MainWindow.xaml.cs の中で，WebChat のサンプルのあるパスを指定してください．
 
+Note:
+- デフォルトのWebBrowserコントロールはなんと IE7 を呼んでいるので，PCに入っている新しいIEに置き換えています．
+    - 具体的には，Appのコンストラクタとデストラクタでレジストリの登録と削除をしています．
+    - 参考: http://qiita.com/hbsnow/items/e732621b223e2a5d5df8
+- WebChat側 (DirectLineJS) は ajax を使っていますが，IE11 のキャッシュが影響して Bot 側の出力が描画されません．
+    - GET polling に対するレスポンスでは常にヘッダで No-Cache などをつける，サーバ側 (Offline DirectLine) を変更しました．
