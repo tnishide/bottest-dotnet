@@ -1,8 +1,5 @@
 # bottest-dotnet
 
-## デバッグ用ツール
-- https://www.telerik.com/download/fiddler が通信の流れを見れて超便利!
-
 ## Bot_GazeTest
 C#の Bot で Event が扱えることを確認できます．
 - https://github.com/hkawash/bottest-dotnet/tree/master/Bot_GazeTest のBotと
@@ -43,3 +40,8 @@ Note:
     - 参考: http://qiita.com/hbsnow/items/e732621b223e2a5d5df8
 - WebChat側 (DirectLineJS) は ajax を使っていますが，IE11 のキャッシュが影響して Bot 側の出力が描画されません．
     - GET polling に対するレスポンスでは常にヘッダで No-Cache などをつける，サーバ側 (Offline DirectLine) を変更しました．
+    
+## （参考）デバッグ用ツール
+- [Fiddler](https://www.telerik.com/download/fiddler) が通信の流れを見れて超便利!
+
+
