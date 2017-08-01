@@ -2,9 +2,9 @@
 
 ## Bot_GazeTest
 C#の Bot で Event が扱えることを確認できます．
-- https://github.com/hkawash/bottest-dotnet/tree/master/Bot_GazeTest のBotと
-- https://github.com/hkawash/BotFramework-WebChat/blob/inspect/samples/backchannel/index.html のWebChatを
-- https://github.com/hkawash/offline-dl-Test の Offline DirectLine でつないでください．
+- https://github.com/mlab-hci/bottest-dotnet/tree/master/Bot_GazeTest のBotと
+- https://github.com/mlab-hci/BotFramework-WebChat-Test/blob/inspect/samples/backchannel/index.html のWebChatを
+- https://github.com/mlab-hci/offline-dl-Test の Offline DirectLine でつないでください．
 
 ### テスト内容
 WebChat の backchannel サンプル (Node.js) を C# .NET にしたもので，使い方は同じです．中では以下の処理が行われています．
