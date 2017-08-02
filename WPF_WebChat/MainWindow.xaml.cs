@@ -20,5 +20,9 @@ namespace WPF_WebChat
 
         }
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            wbWebChat.InvokeScript("changeBackgroundColor", textBox.Text);
+        }
     }
 }

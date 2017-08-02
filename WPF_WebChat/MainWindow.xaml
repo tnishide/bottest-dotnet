@@ -8,6 +8,8 @@
         Title="MainWindow" Height="571.049" Width="1025.197">
     <Grid Margin="512,0,0.4,-0.4">
         <WebBrowser x:Name="wbWebChat" />
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="-225,65,0,0" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="-400,62,0,0" TextWrapping="Wrap" Text="blue" VerticalAlignment="Top" Width="120"/>
 
 
     </Grid>
